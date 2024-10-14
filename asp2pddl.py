@@ -131,8 +131,10 @@ def execute_sgplan(domain_name,problem_name):
     if result.stderr:
         print("SGPlan Error:\n", result.stderr)
 
-# 调用函数并打印结果
-domain_name = "query2plan"  # 域名
-problem_name = "problem_1"  # 问题名
-pddl_result = generate_pddl(domain_name, problem_name)
-execute_sgplan(domain_name, problem_name)  # 执行 sgplan522
+def main(domain_name, problem_name):
+    pddl_result = generate_pddl(domain_name, problem_name)
+    execute_sgplan(domain_name, problem_name)
+
+main("query2plan", "problem_1")
+main("query2plan", "problem_2")
+main("query2plan", "problem_3")
