@@ -1,0 +1,27 @@
+{
+    "profit_loss_report": {
+      "required_information": {
+        "start_date": {
+          "type": "date",
+          "predicate": "domain_start_date"
+        },
+        "end_date": {
+          "type": "date",
+          "predicate": "domain_end_date"
+        }
+      }
+    },
+    "contact": {
+      "required_information": {
+        "contact_topic": {
+          "type": "contact_topic",
+          "predicate": "domain_contact_topic"
+        },
+        "contact_channel": {
+          "type": "contact_channel",
+          "predicate": "domain_contact_channel"
+        }
+      }
+    }
+}
+  
