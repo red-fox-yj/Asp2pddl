@@ -1,17 +1,8 @@
 # Asp2pddl
-## ASP
+## Quick start
 ```
-conda create -n ASP python=3.10
-conda activate ASP
+conda create -n Asp2pddl python=3.10
+conda activate Asp2pddl
 conda install -c potassco clingo
-```
-
-## PDDL
-```
-./sgplan522/sgplan522 -o domain.pddl -f problem.pddl -out plan
-```
-
-## Asp2pddl
-```
 python asp2pddl.py 
 ```
